@@ -19,6 +19,15 @@ const userSchema = new Schema(
             type: String,
             required: true,
         },
+        name: {
+            type: String,
+        },
+        gamertag: {
+            type: String,
+        },
+        platform: {
+            type: String,
+        }
     }
 );
 
